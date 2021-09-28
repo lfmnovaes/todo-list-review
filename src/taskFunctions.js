@@ -1,10 +1,10 @@
 import chkboxStatus from './chkbox.js';
 
 class Task {
-  constructor(i, c = false, d) {
-    this.index = i;
-    this.completed = c;
-    this.description = d;
+  constructor(index = -1, completed = false, description = '') {
+    this.index = index;
+    this.completed = completed;
+    this.description = description;
   }
 }
 
